@@ -256,14 +256,14 @@ td{padding:14px 16px;vertical-align:middle;}
     <div class="login-right">
       <div class="lr-title">Acesso</div>
       <div class="fg"><label class="fl">E-mail</label><input class="fi" id="loginEmail" type="email" placeholder="seu@email.com" autocomplete="email"></div>
-      <div class="fg"><label class="fl">Senha</label><input class="fi" id="loginPass" type="password" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" autocomplete="current-password"></div>
+      <div class="fg"><label class="fl">Senha</label><input class="fi" id="loginPass" type="password" placeholder="Digite sua senha" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
       <button class="btn-p" id="btnLogin" onclick="doLogin()">Entrar</button>
       <div class="f-err" id="loginErr"></div>
       <div class="f-tog">Primeiro acesso? <button onclick="toggleReg()">Criar conta</button></div>
       <div id="regSection">
         <div class="fg" style="margin-top:14px"><label class="fl">Nome</label><input class="fi" id="regName" type="text" placeholder="Seu nome"></div>
         <div class="fg"><label class="fl">E-mail</label><input class="fi" id="regEmail" type="email" placeholder="novo@email.com"></div>
-        <div class="fg"><label class="fl">Senha</label><input class="fi" id="regPass" type="password" placeholder="mínimo 6 caracteres"></div>
+        <div class="fg"><label class="fl">Senha</label><input class="fi" id="regPass" type="password" placeholder="Mínimo 8 caracteres fortes" autocomplete="new-password" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
         <button class="btn-p" onclick="doRegister()" style="background:var(--green);color:var(--ink)">Criar conta</button>
       </div>
     </div>
